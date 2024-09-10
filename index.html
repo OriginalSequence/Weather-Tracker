@@ -1,0 +1,58 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather Tracker</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<div id="main-container">
+  <header>
+    <form>
+      <div class="form-group">
+        <button class="submit-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <input type="text" placeholder="Search city" />
+        <br />
+        <span class="error-msg">No matching location found!</span>
+      </div>
+    </form>
+  </header>
+
+  <!-- Centered Toggle Button -->
+  <div class="toggle-container">
+    <button class="toggle-switch">Toggle °F/°C</button>
+  </div>
+
+  <!-- Centered Weather Display -->
+  <div class="main-weather-display info">
+    <div class="general-info">
+      <p class="condition">Condition</p>
+      <h1 class="location">City, Country</h1>
+      <span class="degrees">00</span>
+    </div>
+    <div class="weather-details info">
+      <p class="feels-like">FEELS LIKE: 00</p>
+      <p class="wind-mph">WIND: 0 MPH</p>
+      <p class="humidity">HUMIDITY: 0%</p>
+    </div>
+  </div>
+
+</div>
+<script src="js/app.js"></script>
+</body>
+
+
+</html>
