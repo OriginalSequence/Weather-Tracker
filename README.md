@@ -9,7 +9,7 @@ This project is a weather forecast site that uses the Weather API to fetch weath
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sharukyen/Weather-Tracker.git
+   git clone https://github.com/OriginalSequence/Weather-Tracker.git
    ```
 2. Navigate to the project directory:
    ```bash
